@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akhil Kumar Marni | Agentic AI Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Akhil Kumar Marni, an Agentic AI Engineer building LLM agents with LangGraph, LangChain, Ollama, MCP, RAG, ML systems, and production evaluation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="agentMap" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Akhil Kumar Marni home">
+        <span class="brand-mark">AK</span>
+        <span>Akhil Kumar Marni</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Agentic AI Engineer in Chicago</p>
+          <h1>Building LLM agents that reason, use tools, evaluate outputs, and fail safely.</h1>
+          <p class="hero-text">
+            I design production-style AI systems with LangGraph, LangChain, Ollama, MCP-style
+            tools, RAG, structured routing, and traceable evaluation. My work turns domain problems
+            in healthcare, mobility, planning, agriculture, and finance into practical AI products.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="mailto:marniakhilkumar@gmail.com">Contact me</a>
+            <a class="button secondary" href="https://github.com/marniakhilkumar-max" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/akhil-kumar-marni/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <aside class="signal-panel" aria-label="Agentic AI portfolio summary">
+          <div class="panel-topline">
+            <span>Portfolio Signal</span>
+            <strong>Production-focused</strong>
+          </div>
+          <div class="signal-grid">
+            <div>
+              <span class="signal-number">4+</span>
+              <span class="signal-label">Domain AI systems</span>
+            </div>
+            <div>
+              <span class="signal-number">8</span>
+              <span class="signal-label">Core agent patterns</span>
+            </div>
+            <div>
+              <span class="signal-number">2025</span>
+              <span class="signal-label">MAS Data Science</span>
+            </div>
+            <div>
+              <span class="signal-number">AI/ML</span>
+              <span class="signal-label">Role focus</span>
+            </div>
+          </div>
+          <div class="agent-flow">
+            <span>Input</span>
+            <span>Router</span>
+            <span>Tools</span>
+            <span>Evidence</span>
+            <span>Evaluation</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section impact-strip" aria-label="Portfolio strengths">
+        <div>
+          <span>Stateless agent graphs</span>
+          <strong>Fresh state per run, no hidden reasoning memory.</strong>
+        </div>
+        <div>
+          <span>Tool-using LLMs</span>
+          <strong>MCP-style tools, structured actions, strict validation.</strong>
+        </div>
+        <div>
+          <span>Evaluation mindset</span>
+          <strong>Safety checks, fallback paths, tests, traceable decisions.</strong>
+        </div>
+      </section>
+
+      <section class="section" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Projects built to show real Agentic AI ability.</h2>
+          <p>
+            These are not notebook-only experiments. Each project is framed around orchestration,
+            domain reasoning, user-facing output, and production safeguards.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card featured">
+            <div class="project-meta">
+              <span>Agentic AI</span>
+              <span>Safety Reasoning</span>
+            </div>
+            <h3>RoadSage AI</h3>
+            <p>
+              Autonomous driving safety reasoning agent using LangGraph, LangChain, Ollama, and
+              MCP-style tools. The router chooses the next action across parsing, hazard detection,
+              evidence retrieval, evaluation, and final recommendations.
+            </p>
+            <ul>
+              <li>Stateless graph execution with fresh state per scenario.</li>
+              <li>Strict router validation, max-step loop protection, and deterministic fallback.</li>
+              <li>Trace timeline for agent decisions and safety reasoning.</li>
+            </ul>
+            <a href="https://github.com/marniakhilkumar-max/roadsage-ai" target="_blank" rel="noreferrer">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Medical AI</span>
+              <span>LLM Evaluation</span>
+            </div>
+            <h3>ClinIQ Nexus</h3>
+            <p>
+              Medical report reasoning and patient Q&A agent with Ollama-powered routing,
+              specialist analysis, evidence retrieval, consensus building, and evaluation.
+            </p>
+            <ul>
+              <li>Lightweight MCP server exposing medical report tools.</li>
+              <li>Urgent red-flag escalation that cannot be suppressed by the LLM.</li>
+              <li>Grounded patient-facing answers with safety disclaimers.</li>
+            </ul>
+            <a href="https://github.com/marniakhilkumar-max/cliniq-nexus" target="_blank" rel="noreferrer">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Civic Analytics</span>
+              <span>Planning</span>
+            </div>
+            <h3>EquiTOD Signal Lab</h3>
+            <p>
+              Urban planning and transit equity analytics dashboard that turns neighborhood data
+              into interpretable development signals for civic decision support.
+            </p>
+            <ul>
+              <li>Scoring logic across transit access, affordability, equity, and opportunity.</li>
+              <li>Readable visual outputs for planning and policy audiences.</li>
+              <li>Based on practical community development questions.</li>
+            </ul>
+            <a href="https://github.com/marniakhilkumar-max/equitod-signal-lab" target="_blank" rel="noreferrer">View repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>Climate Risk</span>
+              <span>Agriculture</span>
+            </div>
+            <h3>AgriShield StormGuard</h3>
+            <p>
+              Storm-risk planning system for protecting paddy fields, crops, and gardens from heavy
+              rain through risk scoring, cover recommendations, material estimates, and checklists.
+            </p>
+            <ul>
+              <li>Practical field-level decision support for storm preparation.</li>
+              <li>Risk logic based on crop, area, storm timing, and protection strategy.</li>
+              <li>Validation tests for recommendation and planning logic.</li>
+            </ul>
+            <a href="https://github.com/marniakhilkumar-max/agrishield-stormguard" target="_blank" rel="noreferrer">Repository target</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="experience">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>A background across AI engineering, risk, governance, data science, and delivery.</h2>
+          <p>
+            My experience gives me both sides of the AI product problem: building technical systems
+            and understanding reliability, risk, stakeholders, and business outcomes.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article>
+            <span>May 2026 - Present</span>
+            <h3>AI Agentic Engineer, Relic Solutions</h3>
+            <p>
+              Building agentic AI workflows with LLM orchestration, tool use, local models,
+              evaluation, and practical domain applications.
+            </p>
+          </article>
+          <article>
+            <span>Jun 2025 - Apr 2026</span>
+            <h3>Risk Reporting Analyst, Rebecca Everlene Trust Company</h3>
+            <p>
+              Worked across reporting, risk intelligence, analytics, controls, and data-driven
+              decision support.
+            </p>
+          </article>
+          <article>
+            <span>May 2024 - May 2025</span>
+            <h3>Enterprise Delivery Governance Analyst, OCC</h3>
+            <p>
+              Supported governance, delivery tracking, operational reporting, and stakeholder-ready
+              analysis in a high-control environment.
+            </p>
+          </article>
+          <article>
+            <span>Sep 2023 - May 2024</span>
+            <h3>Data Scientist, Center for Neighborhood Technology</h3>
+            <p>
+              Applied data science to urban planning, neighborhood technology, civic analytics, and
+              equitable development problems.
+            </p>
+          </article>
+          <article>
+            <span>2020 - 2023</span>
+            <h3>Software and Data Roles, Accenture and HCL</h3>
+            <p>
+              Built a foundation in software engineering, analytics, delivery, automation, and
+              enterprise technology environments.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-column">
+        <div>
+          <p class="eyebrow">Education</p>
+          <h2>Illinois Institute of Technology</h2>
+          <p class="large-copy">
+            Master of Applied Science in Data Science, Chicago. Built a strong base in machine
+            learning, statistical modeling, data engineering, analytics, and applied AI systems.
+          </p>
+        </div>
+        <div class="education-box">
+          <span>Graduated</span>
+          <strong>May 2025</strong>
+          <p>Focused on Python, machine learning, data analytics, model evaluation, and practical AI projects.</p>
+        </div>
+      </section>
+
+      <section class="section" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>The stack I use to build serious AI systems.</h2>
+        </div>
+        <div class="skill-columns">
+          <div>
+            <h3>Agentic AI and LLMs</h3>
+            <p>LangGraph, LangChain, Ollama, MCP, RAG, prompt orchestration, structured routing, tool-calling, LLM evaluation.</p>
+          </div>
+          <div>
+            <h3>ML and Data Science</h3>
+            <p>Python, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, TensorFlow, forecasting, anomaly detection, model evaluation.</p>
+          </div>
+          <div>
+            <h3>Engineering</h3>
+            <p>SQL, REST APIs, Docker, Kubernetes, Azure, AWS, CI/CD, Bash, PowerShell, Git, data validation, production workflows.</p>
+          </div>
+          <div>
+            <h3>Product Domains</h3>
+            <p>Healthcare AI, autonomous safety, finance and risk, urban planning, agriculture risk, enterprise automation.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section interests">
+        <div class="section-heading">
+          <p class="eyebrow">Interests</p>
+          <h2>Where I want to keep growing.</h2>
+        </div>
+        <div class="interest-list">
+          <span>Local-first AI agents</span>
+          <span>LLM safety and evaluation</span>
+          <span>Financial risk intelligence</span>
+          <span>Medical AI workflows</span>
+          <span>Multimodal reasoning</span>
+          <span>Urban and climate resilience</span>
+        </div>
+      </section>
+
+      <section class="section closing" id="contact">
+        <p class="eyebrow">Recruiter Note</p>
+        <h2>I am looking for roles where I can build reliable AI agents, ML platforms, and useful data products.</h2>
+        <p>
+          Best-fit roles include Agentic AI Engineer, LLM Engineer, Applied AI Engineer, AI/ML
+          Engineer, Machine Learning Platform Engineer, Generative AI Engineer, and Data Scientist
+          roles with strong Python, risk, modeling, and automation focus.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:marniakhilkumar@gmail.com">Email Akhil</a>
+          <a class="button secondary" href="https://github.com/marniakhilkumar-max" target="_blank" rel="noreferrer">Explore GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
