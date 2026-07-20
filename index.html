@@ -3,415 +3,309 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Akhil Kumar Marni | Agentic AI Engineer Portfolio</title>
+    <title>Akhil Kumar Marni | Agentic AI Engineer</title>
     <meta
       name="description"
-      content="Interactive portfolio of Akhil Kumar Marni, an Agentic AI Engineer building production-style LLM agents with LangGraph, LangChain, Ollama, MCP, RAG, evaluation, and applied ML systems."
+      content="Portfolio website for Akhil Kumar Marni, Agentic AI Engineer and Data Scientist building LLM agents, ML systems, dashboards, and applied AI products."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <canvas id="agentMap" aria-hidden="true"></canvas>
-
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="Akhil Kumar Marni home">
-        <span class="brand-mark">AK</span>
-        <span class="brand-copy">
-          <strong>Akhil Kumar Marni</strong>
-          <small>Agentic AI Engineer</small>
-        </span>
-      </a>
-      <nav class="nav-links" aria-label="Primary navigation">
-        <a href="#work">Projects</a>
-        <a href="#proof">Proof</a>
+    <header class="header">
+      <a class="logo" href="#home">Akhil<span>.</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
-        <a href="#skills">Stack</a>
-        <a class="nav-cta" href="#contact">Hire Signal</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <main id="top">
+    <main id="home">
       <section class="hero">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Chicago-based Agentic AI and ML systems builder</p>
-          <h1>LLM agents with a reason to exist, a path to follow, and safeguards when things break.</h1>
-          <p class="hero-text">
-            I build applied AI systems that route decisions, call tools, retrieve evidence, evaluate
-            outputs, and explain results in a way recruiters, engineers, and business teams can
-            understand. My portfolio spans medical AI, autonomous safety, civic analytics,
-            agriculture risk, and finance-ready decision intelligence.
+        <div class="hero__content">
+          <p class="tag">Agentic AI Engineer · Data Scientist · Chicago</p>
+          <h1>Designing useful AI agents for real-world decisions.</h1>
+          <p class="hero__lead">
+            I build LLM-powered systems that route tasks, use tools, retrieve evidence, evaluate
+            outputs, and turn complex data into decisions people can trust.
           </p>
-          <div class="hero-actions" aria-label="Portfolio actions">
-            <a class="button primary" href="mailto:marniakhilkumar@gmail.com">Start a conversation</a>
-            <a class="button secondary" href="#work">Explore projects</a>
-            <a class="button ghost" href="https://github.com/marniakhilkumar-max" target="_blank" rel="noreferrer">GitHub profile</a>
+          <div class="hero__actions">
+            <a class="btn btn--dark" href="mailto:marniakhilkumar@gmail.com">Hire / Contact Me</a>
+            <a class="btn btn--light" href="#projects">View Projects</a>
           </div>
         </div>
 
-        <aside class="command-center reveal" aria-label="Agentic AI command center">
-          <div class="terminal-bar">
-            <span></span>
-            <span></span>
-            <span></span>
-            <strong>agentic_system.trace</strong>
-          </div>
-          <div class="router-card">
-            <div class="router-header">
-              <span>Current Route</span>
-              <strong id="routeLabel">parse_input</strong>
-            </div>
-            <div class="route-visual" aria-hidden="true">
-              <span class="route-node active">Input</span>
-              <span class="route-line"></span>
-              <span class="route-node">Router</span>
-              <span class="route-line"></span>
-              <span class="route-node">Tools</span>
-              <span class="route-line"></span>
-              <span class="route-node">Eval</span>
+        <aside class="profile-card" aria-label="Profile summary">
+          <div class="profile-card__top">
+            <div class="avatar">AK</div>
+            <div>
+              <strong>Akhil Kumar Marni</strong>
+              <span>MS Data Science · IIT Chicago</span>
             </div>
           </div>
-          <div class="mini-dashboard">
-            <div>
-              <span>Agent Projects</span>
-              <strong>4+</strong>
-            </div>
-            <div>
-              <span>Core Stack</span>
-              <strong>LangGraph</strong>
-            </div>
-            <div>
-              <span>Model Mode</span>
-              <strong>Local-first</strong>
-            </div>
+          <div class="profile-card__body">
             <div>
               <span>Focus</span>
-              <strong>Production AI</strong>
+              <strong>Agentic AI + ML Systems</strong>
             </div>
-          </div>
-          <div class="trace-feed" aria-label="Agent trace sample">
-            <p><span>01</span> Stateless graph initialized from user input.</p>
-            <p><span>02</span> Router selects next action from allowed tools.</p>
-            <p><span>03</span> Evidence and safety checks shape the final answer.</p>
+            <div>
+              <span>Core Tools</span>
+              <strong>LangGraph · LangChain · Ollama · MCP</strong>
+            </div>
+            <div>
+              <span>Domains</span>
+              <strong>Medical · Safety · Finance · Civic · Climate</strong>
+            </div>
           </div>
         </aside>
       </section>
 
-      <section class="marquee" aria-label="Core AI capabilities">
+      <section class="section intro" id="about">
         <div>
-          <span>LangGraph</span>
-          <span>LangChain</span>
-          <span>Ollama</span>
-          <span>MCP Tools</span>
-          <span>RAG</span>
-          <span>Evaluation</span>
-          <span>Streamlit</span>
-          <span>Python ML</span>
-          <span>Azure Ready</span>
-          <span>Risk Intelligence</span>
+          <p class="section-kicker">About Me</p>
+          <h2>I am building my career around applied AI that feels practical, explainable, and production-ready.</h2>
+        </div>
+        <p>
+          My background combines AI engineering, data science, risk reporting, governance, and
+          software delivery. I am especially interested in agentic AI systems where the model does
+          more than generate text: it chooses the next step, calls tools, validates outputs, and
+          produces grounded answers with traceable reasoning.
+        </p>
+      </section>
+
+      <section class="metrics" aria-label="Portfolio highlights">
+        <div>
+          <strong>4+</strong>
+          <span>Portfolio AI products</span>
+        </div>
+        <div>
+          <strong>2025</strong>
+          <span>MAS Data Science</span>
+        </div>
+        <div>
+          <strong>5</strong>
+          <span>Applied domains</span>
+        </div>
+        <div>
+          <strong>LLM</strong>
+          <span>Agentic AI focus</span>
         </div>
       </section>
 
-      <section class="section proof-grid" id="proof">
-        <article class="proof-card reveal">
-          <span class="proof-index">01</span>
-          <h2>Agentic, not scripted.</h2>
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="section-kicker">Featured Projects</p>
+          <h2>Work designed to show depth, not just tools.</h2>
           <p>
-            My strongest projects use routers, graph states, tool calls, validation, and fallbacks
-            so the agent decides the next step within controlled boundaries.
-          </p>
-        </article>
-        <article class="proof-card reveal">
-          <span class="proof-index">02</span>
-          <h2>Domain grounded.</h2>
-          <p>
-            I build around real use cases: medical reports, road safety, transit equity, storm
-            protection, risk reporting, and decision support.
-          </p>
-        </article>
-        <article class="proof-card reveal">
-          <span class="proof-index">03</span>
-          <h2>Recruiter readable.</h2>
-          <p>
-            Every project is presented with architecture, business value, safeguards, stack, tests,
-            and the final impact I learned to deliver.
-          </p>
-        </article>
-      </section>
-
-      <section class="section work-section" id="work">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Project Portfolio</p>
-          <h2>Interactive project wall for Agentic AI roles.</h2>
-          <p>
-            Filter the work by theme. Open a project to see the deeper recruiter story: what I
-            built, why it matters, what tools I used, and what the system proves.
+            These projects highlight my ability to build AI systems with reasoning workflows,
+            evidence, evaluation, useful interfaces, and domain context.
           </p>
         </div>
 
-        <div class="filter-bar reveal" aria-label="Project filters">
-          <button class="filter-chip active" type="button" data-filter="all">All</button>
-          <button class="filter-chip" type="button" data-filter="agentic">Agentic AI</button>
-          <button class="filter-chip" type="button" data-filter="medical">Medical</button>
-          <button class="filter-chip" type="button" data-filter="civic">Civic</button>
-          <button class="filter-chip" type="button" data-filter="climate">Climate</button>
-        </div>
-
-        <div class="project-grid">
-          <article class="project-card feature-card reveal" data-category="agentic" data-project="roadsage" tabindex="0">
-            <div class="project-visual roadsage">
-              <span>Stateless safety graph</span>
-            </div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Agentic AI</span>
-                <span>Autonomous Safety</span>
-              </div>
+        <div class="project-list">
+          <article class="project project--large">
+            <div class="project__number">01</div>
+            <div class="project__content">
+              <p class="project__type">Agentic AI · Autonomous Safety</p>
               <h3>RoadSage AI</h3>
               <p>
-                A driving safety reasoning agent where the router dynamically chooses parsing,
-                hazard detection, evidence retrieval, evaluation, or final response.
+                A production-style autonomous driving safety reasoning agent using LangGraph,
+                LangChain, Ollama, MCP-style tools, stateless routing, traceable decisions, and
+                safety evaluation.
               </p>
-              <button class="text-button" type="button" data-open="roadsage">Open project story</button>
+              <ul>
+                <li>Built a stateless agent graph that starts fresh for every driving scenario.</li>
+                <li>Added router validation, max-step protection, fallback logic, and agent traces.</li>
+                <li>Designed the project to prove controlled agent autonomy, not simple chatbot behavior.</li>
+              </ul>
+              <a href="https://github.com/marniakhilkumar-max/roadsage-ai" target="_blank" rel="noreferrer">Open GitHub Repository</a>
             </div>
           </article>
 
-          <article class="project-card reveal" data-category="agentic medical" data-project="cliniq" tabindex="0">
-            <div class="project-visual cliniq">
-              <span>Medical reasoning loop</span>
-            </div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Medical AI</span>
-                <span>LLM Evaluation</span>
-              </div>
+          <article class="project">
+            <div class="project__number">02</div>
+            <div class="project__content">
+              <p class="project__type">Medical AI · LLM Evaluation</p>
               <h3>ClinIQ Nexus</h3>
               <p>
-                Local medical-report reasoning agent with red-flag escalation, specialist routing,
-                evidence retrieval, consensus, evaluation, and patient Q&A.
+                Medical report reasoning agent with Ollama routing, red-flag detection, specialist
+                analysis, evidence retrieval, consensus, evaluation, patient Q&A, and MCP tools.
               </p>
-              <button class="text-button" type="button" data-open="cliniq">Open project story</button>
+              <a href="https://github.com/marniakhilkumar-max/cliniq-nexus" target="_blank" rel="noreferrer">Open GitHub Repository</a>
             </div>
           </article>
 
-          <article class="project-card reveal" data-category="civic" data-project="equitod" tabindex="0">
-            <div class="project-visual equitod">
-              <span>Neighborhood signal model</span>
-            </div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Civic Analytics</span>
-                <span>Transit Equity</span>
-              </div>
+          <article class="project">
+            <div class="project__number">03</div>
+            <div class="project__content">
+              <p class="project__type">Urban Planning · Data Science</p>
               <h3>EquiTOD Signal Lab</h3>
               <p>
-                Urban planning analytics dashboard that translates transit, equity, housing, and
-                development indicators into explainable neighborhood opportunity signals.
+                Civic analytics dashboard that converts transit, equity, housing, and development
+                indicators into explainable neighborhood opportunity signals.
               </p>
-              <button class="text-button" type="button" data-open="equitod">Open project story</button>
+              <a href="https://github.com/marniakhilkumar-max/equitod-signal-lab" target="_blank" rel="noreferrer">Open GitHub Repository</a>
             </div>
           </article>
 
-          <article class="project-card reveal" data-category="climate" data-project="agrishield" tabindex="0">
-            <div class="project-visual agrishield">
-              <span>Storm protection planner</span>
-            </div>
-            <div class="project-body">
-              <div class="project-meta">
-                <span>Climate Risk</span>
-                <span>Agriculture</span>
-              </div>
+          <article class="project">
+            <div class="project__number">04</div>
+            <div class="project__content">
+              <p class="project__type">Climate Risk · Agriculture</p>
               <h3>AgriShield StormGuard</h3>
               <p>
-                Decision support for protecting paddy fields, crops, and gardens from storms with
-                risk scoring, cover strategies, material estimates, and checklists.
+                Crop and garden storm-protection planner that recommends cover strategies, estimates
+                material needs, scores weather risk, and creates preparation checklists.
               </p>
-              <button class="text-button" type="button" data-open="agrishield">Open project story</button>
+              <a href="https://github.com/marniakhilkumar-max/agrishield-stormguard" target="_blank" rel="noreferrer">Repository Target</a>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section architecture-section">
-        <div class="section-heading reveal">
-          <p class="eyebrow">How I Build</p>
-          <h2>A production-grade pattern repeated across domains.</h2>
+      <section class="section process">
+        <div class="section-heading">
+          <p class="section-kicker">How I Build</p>
+          <h2>My agentic AI pattern is structured, testable, and recruiter-readable.</h2>
         </div>
-        <div class="architecture-map reveal" aria-label="Agent architecture pattern">
-          <div class="arch-step">
+        <div class="process-grid">
+          <div>
             <span>01</span>
-            <strong>Input State</strong>
-            <p>Report, scenario, dataset, question, or config enters as a fresh state object.</p>
+            <strong>Understand the domain</strong>
+            <p>I start with the real decision: patient safety, driving risk, neighborhood planning, or storm protection.</p>
           </div>
-          <div class="arch-step">
+          <div>
             <span>02</span>
-            <strong>Router Agent</strong>
-            <p>The LLM selects from allowed actions with JSON validation and fallback handling.</p>
+            <strong>Design the workflow</strong>
+            <p>I define state, routing choices, tools, evidence sources, fallback paths, and final output structure.</p>
           </div>
-          <div class="arch-step">
+          <div>
             <span>03</span>
-            <strong>MCP Tools</strong>
-            <p>Specialized tools parse, retrieve, score, summarize, or evaluate domain evidence.</p>
+            <strong>Build the agent</strong>
+            <p>I use Python, LangGraph, LangChain, Ollama, MCP-style tools, Pydantic, Streamlit, and tests.</p>
           </div>
-          <div class="arch-step">
+          <div>
             <span>04</span>
-            <strong>Evaluation</strong>
-            <p>Outputs are checked for safety, completeness, grounding, and actionability.</p>
-          </div>
-          <div class="arch-step">
-            <span>05</span>
-            <strong>Final Response</strong>
-            <p>The system returns a clear answer with trace events and human-readable reasoning.</p>
+            <strong>Make it explainable</strong>
+            <p>I show traces, evidence, evaluation, limitations, and safety checks so the output feels trustworthy.</p>
           </div>
         </div>
       </section>
 
-      <section class="section split-section" id="experience">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Experience</p>
-          <h2>Built across AI engineering, risk, governance, data science, and delivery.</h2>
-          <p>
-            My experience is useful for AI roles because I understand more than models. I understand
-            controls, reporting, stakeholders, data quality, automation, and the discipline needed
-            to make systems usable.
-          </p>
+      <section class="section timeline-section" id="experience">
+        <div class="section-heading">
+          <p class="section-kicker">Experience</p>
+          <h2>Experience across AI, risk, data, governance, and software delivery.</h2>
         </div>
-
-        <div class="timeline reveal">
+        <div class="timeline">
           <article>
             <span>May 2026 - Present</span>
-            <h3>AI Agentic Engineer, Relic Solutions</h3>
-            <p>Building LLM workflows with routing, tool use, local models, evaluation, and applied AI interfaces.</p>
+            <h3>AI Agentic Engineer · Relic Solutions</h3>
+            <p>Building LLM agent workflows, local model orchestration, tool use, evaluation, and applied AI interfaces.</p>
           </article>
           <article>
             <span>Jun 2025 - Apr 2026</span>
-            <h3>Risk Reporting Analyst, Rebecca Everlene Trust Company</h3>
-            <p>Worked on reporting, risk intelligence, controls, analytics, and decision-ready data outputs.</p>
+            <h3>Risk Reporting Analyst · Rebecca Everlene Trust Company</h3>
+            <p>Worked across risk reporting, analytics, controls, data quality, and decision support.</p>
           </article>
           <article>
             <span>May 2024 - May 2025</span>
-            <h3>Enterprise Delivery Governance Analyst, OCC</h3>
-            <p>Supported governance, delivery tracking, operational reporting, and stakeholder communication.</p>
+            <h3>Enterprise Delivery Governance Analyst · OCC</h3>
+            <p>Supported governance reporting, delivery tracking, operational analysis, and stakeholder communication.</p>
           </article>
           <article>
             <span>Sep 2023 - May 2024</span>
-            <h3>Data Scientist, Center for Neighborhood Technology</h3>
-            <p>Applied data science to transit equity, neighborhood technology, civic analytics, and development planning.</p>
+            <h3>Data Scientist · Center for Neighborhood Technology</h3>
+            <p>Applied data science to transit equity, civic analytics, neighborhood technology, and planning decisions.</p>
           </article>
           <article>
             <span>2020 - 2023</span>
-            <h3>Software and Data Roles, Accenture and HCL</h3>
-            <p>Built a foundation in software delivery, data analysis, enterprise systems, and automation.</p>
+            <h3>Software and Data Roles · Accenture and HCL</h3>
+            <p>Built a foundation in software delivery, automation, analytics, enterprise systems, and technical execution.</p>
           </article>
         </div>
       </section>
 
-      <section class="section education-band reveal">
+      <section class="section education">
         <div>
-          <p class="eyebrow">Education</p>
+          <p class="section-kicker">Education</p>
           <h2>Illinois Institute of Technology</h2>
           <p>
-            Master of Applied Science in Data Science, Chicago. Focused on machine learning,
-            statistical modeling, analytics, Python systems, and applied AI.
+            Master of Applied Science in Data Science, Chicago · May 2025. Focused on machine
+            learning, statistics, Python analytics, model evaluation, data engineering, and applied AI.
           </p>
         </div>
-        <div class="degree-seal">
-          <span>MAS</span>
-          <strong>Data Science</strong>
-          <small>May 2025</small>
+        <div class="education-card">
+          <span>Degree</span>
+          <strong>MAS Data Science</strong>
+          <small>Chicago · 2025</small>
         </div>
       </section>
 
       <section class="section" id="skills">
-        <div class="section-heading reveal">
-          <p class="eyebrow">Skill Stack</p>
-          <h2>Explore the stack by role signal.</h2>
+        <div class="section-heading">
+          <p class="section-kicker">Skills</p>
+          <h2>The stack I want recruiters to notice.</h2>
         </div>
-        <div class="skill-lab reveal">
-          <div class="skill-tabs" role="tablist" aria-label="Skill categories">
-            <button class="skill-tab active" type="button" data-tab="agents">Agentic AI</button>
-            <button class="skill-tab" type="button" data-tab="ml">ML and Data</button>
-            <button class="skill-tab" type="button" data-tab="platform">Platform</button>
-            <button class="skill-tab" type="button" data-tab="domains">Domains</button>
+        <div class="skills-grid">
+          <div>
+            <h3>Agentic AI</h3>
+            <p>LangGraph, LangChain, Ollama, MCP, RAG, tool-calling, router agents, structured outputs, traces, evaluation.</p>
           </div>
-          <div class="skill-panel active" data-panel="agents">
-            <h3>Agentic AI and LLM Engineering</h3>
-            <p>LangGraph, LangChain, Ollama, MCP, RAG, structured output validation, router agents, trace events, safety fallbacks, and grounded Q&A.</p>
+          <div>
+            <h3>Machine Learning</h3>
+            <p>Python, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, TensorFlow, forecasting, anomaly detection, model evaluation.</p>
           </div>
-          <div class="skill-panel" data-panel="ml">
-            <h3>Machine Learning and Analytics</h3>
-            <p>Python, SQL, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, TensorFlow, forecasting, anomaly detection, classification, evaluation, and dashboards.</p>
+          <div>
+            <h3>Engineering</h3>
+            <p>SQL, REST APIs, Docker, Kubernetes, Azure, AWS, CI/CD, GitHub, Bash, PowerShell, data validation.</p>
           </div>
-          <div class="skill-panel" data-panel="platform">
-            <h3>Engineering and Deployment</h3>
-            <p>Docker, Kubernetes, Azure, AWS, CI/CD, REST APIs, Bash, PowerShell, GitHub, data validation, production workflows, and testable project structure.</p>
-          </div>
-          <div class="skill-panel" data-panel="domains">
-            <h3>Applied Domains</h3>
-            <p>Healthcare AI, autonomous safety, urban planning, agriculture risk, financial risk, credit intelligence, enterprise automation, and governance reporting.</p>
+          <div>
+            <h3>Domains</h3>
+            <p>Healthcare AI, autonomous safety, finance and risk, urban planning, agriculture risk, governance reporting.</p>
           </div>
         </div>
       </section>
 
-      <section class="section interests reveal">
+      <section class="section interests">
         <div class="section-heading">
-          <p class="eyebrow">Interests</p>
-          <h2>The areas I am actively growing into.</h2>
+          <p class="section-kicker">Interests</p>
+          <h2>What I am excited to build next.</h2>
         </div>
-        <div class="interest-list">
-          <span>Local-first AI agents</span>
-          <span>LLM safety and evaluation</span>
+        <div class="interest-tags">
+          <span>Production LLM agents</span>
+          <span>AI evaluation</span>
           <span>Financial risk intelligence</span>
           <span>Medical AI workflows</span>
           <span>Multimodal reasoning</span>
-          <span>Urban and climate resilience</span>
-          <span>Agent observability</span>
           <span>Human-centered AI tools</span>
+          <span>Urban analytics</span>
+          <span>Climate resilience</span>
         </div>
       </section>
 
-      <section class="section closing reveal" id="contact">
-        <div>
-          <p class="eyebrow">Hire Signal</p>
-          <h2>I am strongest where AI needs engineering judgment, business context, and practical delivery.</h2>
-          <p>
-            I am targeting Agentic AI Engineer, LLM Engineer, Applied AI Engineer, AI/ML Engineer,
-            Machine Learning Platform Engineer, Generative AI Engineer, and Data Scientist roles
-            where Python, ML, LLM orchestration, risk thinking, and product usefulness matter.
-          </p>
-        </div>
-        <div class="contact-panel">
-          <a class="button primary" href="mailto:marniakhilkumar@gmail.com">Email Akhil</a>
-          <a class="button secondary" href="https://github.com/marniakhilkumar-max" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="button secondary" href="https://www.linkedin.com/in/akhil-kumar-marni/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <section class="contact" id="contact">
+        <p class="section-kicker">Recruiter Note</p>
+        <h2>Looking for Agentic AI, LLM Engineering, Applied AI, AI/ML, and Data Science roles.</h2>
+        <p>
+          I am strongest where AI needs practical engineering, domain understanding, clean user
+          experience, and reliable outputs.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--dark" href="mailto:marniakhilkumar@gmail.com">marniakhilkumar@gmail.com</a>
+          <a class="btn btn--light" href="https://github.com/marniakhilkumar-max" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn--light" href="https://www.linkedin.com/in/akhil-kumar-marni/" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </section>
     </main>
-
-    <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
-      <button class="dialog-close" type="button" aria-label="Close project details">Close</button>
-      <div class="dialog-content">
-        <p class="eyebrow" id="dialogKicker">Project</p>
-        <h2 id="dialogTitle"></h2>
-        <p id="dialogSummary"></p>
-        <div class="dialog-grid">
-          <div>
-            <h3>What I built</h3>
-            <ul id="dialogBuilt"></ul>
-          </div>
-          <div>
-            <h3>Recruiter signal</h3>
-            <ul id="dialogSignal"></ul>
-          </div>
-        </div>
-        <a class="button primary" id="dialogLink" href="#" target="_blank" rel="noreferrer">Open repository</a>
-      </div>
-    </dialog>
 
     <script src="script.js"></script>
   </body>
