@@ -1,6 +1,6 @@
 # Akhil Kumar Marni
 
-**Agentic AI Engineer | LLM Systems | LangGraph, LangChain, Ollama, MCP, RAG, Evaluation**
+**Agentic AI Engineer | LLM Systems | LangGraph, LangChain, Ollama, MCP, RAG, LLMOps, Evaluation**
 
 I build production-style AI agent systems that can reason over domain data, choose the next step dynamically, call tools, evaluate their own outputs, and fall back safely when an LLM is unavailable. My recent work focuses on practical agentic AI across healthcare, autonomous driving safety, civic planning, agriculture risk, and financial decision intelligence.
 
@@ -10,7 +10,33 @@ My strongest work sits at the intersection of:
 - Local and open-weight LLM systems using Ollama
 - Tool-using agents with MCP-style servers and structured actions
 - RAG, evidence retrieval, grounding, traceability, and evaluation
-- Python ML engineering, data pipelines, dashboards, and production safeguards
+- Python ML engineering, data pipelines, dashboards, cloud-aware deployment, and production safeguards
+
+## Current Skill Signal
+
+**Agentic AI Systems**
+
+- LangGraph, LangChain, stateless graph workflows, router agents, tool-calling, MCP servers, multi-agent workflow patterns, guardrails, fallback routing, trace logging, and evaluation loops.
+
+**LLM Engineering**
+
+- Ollama, OpenAI-ready architecture, RAG, vector search, semantic retrieval, prompt engineering, structured JSON outputs, grounded Q&A, summarization, LLM evaluation, and response validation.
+
+**Machine Learning**
+
+- Python, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, TensorFlow, classification, regression, forecasting, anomaly detection, feature engineering, and model evaluation.
+
+**Data Engineering**
+
+- SQL, ETL/ELT pipelines, API ingestion, data validation, data quality checks, Spark, Kafka, Hadoop, Hive, DuckDB, Polars, PostgreSQL, NoSQL, vector databases, and semantic search.
+
+**Cloud, MLOps, and Product Engineering**
+
+- Azure, AWS, Docker, Kubernetes, CI/CD, GitHub, Linux, FastAPI, Streamlit, model deployment concepts, monitoring, reproducible workflows, testing, and documentation.
+
+**Decision Intelligence Domains**
+
+- Healthcare AI, autonomous safety, financial risk, credit intelligence, urban planning, climate resilience, agriculture risk, governance reporting, and enterprise analytics.
 
 ## Featured Agentic AI Projects
 
@@ -99,6 +125,7 @@ Repository target: `agrishield-stormguard`
 - Tool-calling patterns with MCP-style servers
 - Multi-step reasoning traces and audit-friendly outputs
 - Deterministic fallback paths when LLMs fail
+- Guardrails, max-step protection, validation, and agent evaluation
 
 **LLM Engineering**
 
@@ -107,13 +134,14 @@ Repository target: `agrishield-stormguard`
 - Structured JSON routing and output validation
 - RAG and evidence-grounded response generation
 - Prompt safety, grounded Q&A, and domain disclaimers
+- Vector search, semantic retrieval, summarization, and LLMOps-ready patterns
 
 **ML and Data Engineering**
 
 - Python-based data pipelines and analytics workflows
 - Predictive modeling, classification, anomaly detection, and evaluation
 - Dashboarding for healthcare, mobility, planning, agriculture, and finance use cases
-- SQL, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, and TensorFlow
+- SQL, ETL/ELT, Spark, Kafka, DuckDB, Polars, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, and TensorFlow
 
 **Production Thinking**
 
@@ -122,6 +150,7 @@ Repository target: `agrishield-stormguard`
 - CI/CD-ready project structure
 - Docker/Kubernetes/cloud-aware architecture
 - Logging, traceability, validation, and failure handling
+- Azure/AWS-aware architecture, FastAPI, Streamlit, reproducible workflows, and documentation
 
 ## Resume Positioning
 
