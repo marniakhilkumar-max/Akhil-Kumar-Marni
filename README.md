@@ -116,6 +116,63 @@ AgriShield StormGuard helps farmers and garden owners decide how to protect padd
 
 Repository target: `agrishield-stormguard`
 
+---
+
+### RiskAlpha Nexus
+
+**Agentic finance risk intelligence system**
+
+RiskAlpha Nexus analyzes portfolio exposure, market regimes, concentration risk, and scenario drawdowns, then generates evidence-backed investment risk memos through a controlled finance-agent workflow.
+
+**Highlights**
+
+- Added generated market-regime, portfolio-scenario, and risk-memo sample datasets.
+- Built stress testing for recession, rate shock, technology drawdown, and oil shock scenarios.
+- Created quant-style risk analytics for sector concentration, beta, volatility, valuation sensitivity, and defensive allocation.
+- Built Streamlit-ready outputs and tests for router behavior, risk detection, stress testing, and memo generation.
+
+**Tech Stack:** Python, Streamlit, Pytest, Quant Risk Logic, Scenario Modeling, Synthetic Data Generation
+
+Repository: [riskalpha-nexus](https://github.com/marniakhilkumar-max/riskalpha-nexus)
+
+---
+
+### AgentVault Nexus
+
+**Supervised AI-agent wallet policy system**
+
+AgentVault Nexus evaluates autonomous payment intents before execution using spend limits, merchant risk scoring, human-review routing, blocked-category controls, audit logging, and MCP-style payment tools.
+
+**Highlights**
+
+- Added a generated dataset of 80 synthetic AI-agent payment intents across market data, research, compute, trading signal, wallet transfer, and private-key-risk categories.
+- Built controlled routing across approve, queue for human review, fallback, and block decisions.
+- Created an audit ledger and payment risk memo generator for compliance-friendly review.
+- Added Node.js tests for approvals, human-review routing, blocked transfers, daily-cap fallback, and MCP-style tools.
+
+**Tech Stack:** Node.js, Agentic AI, MCP-Style Tools, Payment Policy Engine, Audit Ledger, Test Runner
+
+Repository: [agentvault-nexus](https://github.com/marniakhilkumar-max/agentvault-nexus)
+
+---
+
+### LocalPulse Agent
+
+**Privacy-preserving realtime machine intelligence system**
+
+LocalPulse Agent streams safe aggregate local machine telemetry, classifies workload risk, detects anomalies, and generates operational recommendations through a local dashboard without collecting sensitive user information.
+
+**Highlights**
+
+- Added generated privacy-safe telemetry dataset for offline demos and GitHub review.
+- Built local APIs for CPU load, memory pressure, disk usage, battery status, uptime, and risk classification.
+- Added explicit privacy safeguards: no file names, process names, environment variables, browser history, command history, network payloads, or secrets.
+- Built tests for risk classification, anomaly detection, privacy-contract output, and recommendation generation.
+
+**Tech Stack:** Python, JavaScript, Local HTTP API, Realtime Dashboard, Anomaly Detection, Pytest
+
+Repository: [localpulse-agent](https://github.com/marniakhilkumar-max/localpulse-agent)
+
 ## What I Build Well
 
 **Agentic AI Systems**
