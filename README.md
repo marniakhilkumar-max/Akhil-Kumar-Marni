@@ -53,6 +53,8 @@ RoadSage AI is a production-style local LLM agent for road-scene safety reasonin
 - Added MCP-style tools for driving-scene parsing, hazard extraction, evidence lookup, and safety summarization.
 - Implemented strict router validation, fallback routing, loop protection, and traceable decision history.
 - Created a Streamlit interface for scenario analysis, agent trace review, safety reasoning, and evaluation output.
+- Added a reproducible CI safety benchmark covering action agreement, critical-risk recall, pedestrian safety, emergency yielding, latency, and policy quality.
+- Reached 100% mandatory safety compliance and a 90/100 average policy-evaluation score across the current regression suite; action agreement remains a documented improvement target.
 
 **Tech Stack:** Python, LangGraph, LangChain, Ollama, MCP, Pydantic, Streamlit, Pytest
 
