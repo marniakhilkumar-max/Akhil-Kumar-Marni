@@ -40,6 +40,27 @@ My strongest work sits at the intersection of:
 
 ## Featured Agentic AI Projects
 
+### AgentProof Lab
+
+**Agent evaluation and regression gates**
+
+A Python engineering prototype for evaluating observable actions in tool-using
+agents. It checks approvals, citation provenance, forbidden actions, adapter
+failures, and bounded execution across six synthetic support scenarios.
+
+- Local Ollama inference and explicitly labeled offline replay.
+- Per-check baseline comparison that catches regressions even when aggregate pass counts are unchanged.
+- Validation that rejects incompatible suites, missing cases, and changed check contracts.
+- 29 offline tests and a GitHub Actions contract gate.
+- Published live-model failure evidence: the recorded llama3.2:3b run passed 2/6 cases.
+- A delivery walkthrough covering acceptance criteria, trade-offs, and client handoff.
+
+This is a portfolio prototype with simulated tools, not a claimed client deployment.
+
+Repository: [agentproof-lab](https://github.com/marniakhilkumar-max/agentproof-lab)
+
+---
+
 ### RoadSage AI
 
 **Autonomous driving safety reasoning agent**
